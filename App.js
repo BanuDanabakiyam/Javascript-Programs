@@ -2,7 +2,7 @@ var productItems = [];
 document.getElementById("itemPlaced").innerHTML = "Enter a Item";
 document.getElementById("quantity").innerHTML = "Enter a Quantity";
 document.getElementById("rate").innerHTML = "Enter a Rate";
-document.getElementById("discount").innerHTML = "Enter Discount Per product";
+document.getElementById("discount").innerHTML = "Enter Discount% Per product";
 var rupeeSymbol = '\u20B9';
 document.getElementById("amt").innerHTML = rupeeSymbol+".Amount";
 
