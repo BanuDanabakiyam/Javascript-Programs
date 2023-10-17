@@ -1,5 +1,5 @@
 # Javascript-Programs
 Initial level programs using array
-showing before and after output![Screenshot (87)](https://github.com/BanuDanabakiyam/Javascript-Programs/assets/130582342/9a58ed85-9a9a-4826-9a94-6fd110211a3b)
-![Screenshot (85)](https://github.com/BanuDanabakiyam/Javascript-Programs/assets/130582342/12155d8e-1a3f-4d4e-810c-a16c8fc74b8c)
+![Screenshot (92)](https://github.com/BanuDanabakiyam/Javascript-Programs/assets/130582342/a5437b60-709c-4d7d-b679-6788827325a0)
+![Screenshot (91)](https://github.com/BanuDanabakiyam/Javascript-Programs/assets/130582342/a1da6f55-71b6-42ce-91fa-9a9432e73739)
 
