@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PRODUCT BILL DETAILS</h1>
+        <div class="productList">
+        <table>
+            <tr>
+                <td><label id="itemPlaced" class="items"></label></td>
+                <td><input type="text" value="" id="inputItem" class="inputText"></td>
+            </tr>
+            <tr>
+                <td><label id="quantity" class="items"></label></td> 
+                <td><input type="number" value="" id="inputQuantity" class="inputText"></td>
+            </tr>
+            <tr>
+                <td><label id="rate" class="items"></label></td>
+                <td><input type="number" value="" id="inputRate" class="inputText" placeholder="Single Product"></td>
+            </tr>
+            <tr>
+                <td><label id="discount" class="items"></label></td>
+                <td><input type="number" value="" id="inputDiscount" class="inputText"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="Enter" id="enter" onclick="dispalyListItems()"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="totalProductList">
+    <table>
+        <thead>
+            <tr>
+            <th>Item-Name</th>
+            <th>Quantity</th>
+            <th>Rate</th>
+            <th>Discount</th>
+            <th id="amt"></th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td id="displayItem"></td>
+            <td id="displayQuantity"></td>
+            <td id="displayRate"></td>
+            <td id="displayDiscount"></td>
+            <td id="displayAmount"></td>
+        </tr>
+    </tbody>
+    </table>
+
+</div>
+    <script src="App.js"></script>
+    
+</body>
+</html>

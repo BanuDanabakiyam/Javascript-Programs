@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(206, 199, 199);
+}
+.container h1{
+    text-align: center;
+}
+.productList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.inputText{
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.items{
+    margin-bottom: 10px;
+}
+.totalProductList {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.totalProductList table{
+    border-collapse: collapse;
+    border: 1px solid #282727;
+}
+.totalProductList th{
+    background-color:  #767373;
+    border: 1px solid  #282727;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+.totalProductList td{
+    border: 1px solid  #282727;
+    padding: 8px;
+}
+.button{
+    width: 40%;
+    height: 30px;
+    background-color: gray;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
