@@ -1,0 +1,13 @@
+.container{
+    margin: 5% 0 1% 0;
+}
+.labelInput{
+    position: relative;
+    font-size: 18px;
+    margin-left: 10%;
+}
+.input{
+    position: absolute;
+    margin-left: 10%;
+    left: 10%;
+}
