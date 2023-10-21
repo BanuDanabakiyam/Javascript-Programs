@@ -1,0 +1,92 @@
+
+.header h1{
+    margin-left: 10%;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.firstBox{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    border: 2px solid black;
+}
+.secondBox{
+    width: 200px;
+    height: 100px;
+    background-color: #6fcf97;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.thirdBox{
+    width: 200px;
+    height: 100px;
+    background-color: #56ccf2;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.fourthBox{
+    width: 200px;
+    height: 100px;
+    background-color: #bb6bd9;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.backgroundCode{
+    margin-top: 20px;
+    margin-left: 9.5%;
+    border-radius: 10px;
+    width: 830px;
+    height: 80px;
+    color: white;
+    background-color: rgb(68, 66, 66);
+}
+.backgroundCode h2{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.firstBox h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.secondBox h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.thirdBox h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.fourthBox h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.lastText p{
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+@media(max-width: 700px){
+    .header h1{
+        margin-left: 10px;
+    }
+    .backgroundCode{
+        width: 250px;
+        margin-left: 12px;
+    }
+    .backgroundCode h2{
+        font-size: 20px;
+    }
+    .lastText p{
+        text-align: justify;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
