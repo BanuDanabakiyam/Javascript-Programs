@@ -1,0 +1,66 @@
+img{
+   display: block;
+   margin: 0 20%;
+   
+   width: 600px;
+   height: 300px;
+}
+.container{
+    background-color: darkolivegreen;
+    width: 500px;
+    height: 200px;
+    margin-left: 23%;
+}
+.first{
+    margin: 2% 1% 0 12%;
+    width: 40px;
+    height: 40px;
+    padding-left: 25px;
+    
+}
+.add{
+    margin-right: 1%;
+    width: 70px;
+    height: 45px;
+    padding-left: 10px;
+
+}
+.second{
+    margin-right: 1%;
+    width: 40px;
+    height: 35px;
+    padding-left: 25px;
+}
+.equal{
+    margin-right: 1%;
+    width: 70px;
+    height: 40px;
+    padding-left: 10px;
+
+}
+.third{
+        margin-right: 1%;
+        width: 40px;
+        height: 35px;
+        padding-left: 25px;
+    }
+
+   .check{
+    margin: 2% 1% 0 12%;
+    width: 70px;
+    height: 40px;
+    padding-left: 10px;
+   } 
+   .restart{
+    margin-left: 46%;
+    width: 80px;
+    height: 40px;
+    padding-left: 10px;
+   }
+   .para{
+    margin-left: 12%;
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+
